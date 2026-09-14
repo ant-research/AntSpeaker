@@ -1,0 +1,6 @@
+tqdm==4.66.3
+scikit-learn
+matplotlib
+onnxruntime
+soundfile
+
