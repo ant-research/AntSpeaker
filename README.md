@@ -103,6 +103,7 @@ import torch
 import torchaudio
 import soundfile as sf
 import torchaudio.compliance.kaldi as kaldi
+import antspeaker.models
 from antspeaker.utils.registry import create_model
 
 # 1. Load model
