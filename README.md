@@ -26,7 +26,10 @@
 
 ## 📅 Roadmap
 
-- **[Coming Soon]** Release streaming inference tutorial.
+- **[Coming Soon]**
+  - Release streaming inference tutorial.
+  - Release MECT-B2 streaming checkpoint trained on VoxCeleb2 + VoxBlink2.
+  - Release MECT-B3 checkpoint trained on VoxCeleb2 + VoxBlink2.
 - **[2026.09.23]** Release streaming MECT-B2 checkpoint trained on VoxCeleb2.
 - **[2026.09.21]** Paper published on arXiv.
 - **[2026.09.15]** Release MECT-A1/A2/B1/B2 checkpoints trained on VoxCeleb2 and MECT-B2 checkpoint trained on VoxCeleb2 + VoxBlink2.
