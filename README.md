@@ -27,7 +27,7 @@
 ## 📅 Roadmap
 
 - **[Coming Soon]**
-  - Release streaming inference tutorial.
+  - Release streaming inference tutorial.✅
   - Release MECT-B2 streaming checkpoint trained on VoxCeleb2 + VoxBlink2.
   - Release MECT-B3 checkpoint trained on VoxCeleb2 + VoxBlink2.
 - **[2026.09.23]** Release streaming MECT-B2 checkpoint trained on VoxCeleb2.
@@ -47,6 +47,7 @@ This repository provides **4 model sizes** with **6 checkpoints** in total:
 | MECT-B2 | 9.57M | vc2 | [mect_b2_vc2.pt](https://huggingface.co/AntResearch/AntSpeaker/blob/main/mect_b2_vc2.pt) |
 | MECT-B2 | 9.57M | vc2+vb2 | [mect_b2_vb2.pt](https://huggingface.co/AntResearch/AntSpeaker/blob/main/mect_b2_vb2.pt) |
 | MECT-B2-Causal | 9.57M | vc2 | [mect_b2_vc2_streaming.pt](https://huggingface.co/AntResearch/AntSpeaker/blob/main/mect_b2_vc2_streaming.pt) |
+| MECT-B2 | 9.81M | cn | [mect_b2_fs84_cn.pt](https://huggingface.co/AntResearch/AntSpeaker/blob/main/mect_b2_fs84_cn.pt) |
 
 > **MECT-B2-Causal** is a streaming variant of MECT-B2 to support **streaming speaker verification**.
 
@@ -63,6 +64,10 @@ This repository provides **4 model sizes** with **6 checkpoints** in total:
 | MECT-B2 | VoxCeleb2 + VoxBlink2 | No | 0.23 / 0.013 | 0.29 / 0.028 | 0.54 / 0.052 |
 | MECT-B2 | VoxCeleb2 + VoxBlink2 | Yes | 0.22 / 0.012 | 0.28 / 0.026 | 0.52 / 0.048 |
 
+### CN-Celeb Eval Set (EER % / minDCF)
+| Model | Training Data | Calibration | CN-Celeb Eval |
+|:-----:|:-------------:|:-------:|:------:|
+| MECT-B2 | CN-Celeb1&2 | No | 4.89 / 0.298 |
 
 ## 🏗️ Architecture
 MECT integrates CNN and Transformer components within a MoE framework. The framework supports four types of MoE configurations.
