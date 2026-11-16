@@ -51,6 +51,7 @@ This repository provides **4 model sizes** with **6 checkpoints** in total:
 
 > **MECT-B2-Causal** is a streaming variant of MECT-B2 to support **streaming speaker verification**.
 
+Modelscope download： https://www.modelscope.cn/models/AntResearch/AntSpeaker
 
 ## 📊 Performance
 ### VoxCeleb1 Test Sets (EER % / minDCF)
