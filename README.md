@@ -3,6 +3,7 @@
 
 <p align="center">
 <a href="https://huggingface.co/AntResearch/AntSpeaker"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-AntSpeaker-blue.svg" alt="AntSpeaker on Hugging Face"></a>
+<a href="https://www.modelscope.cn/models/AntResearch/AntSpeaker"><img src="https://img.shields.io/badge/ModelScope-AntSpeaker-624aff.svg?logo=modelscope&logoColor=white" alt="AntSpeaker on ModelScope"></a>
 <a href="https://arxiv.org/abs/2609.24061"><img src="https://img.shields.io/badge/arXiv-2609.24061-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv"></a>
 <a href="https://github.com/ant-research/AntSpeaker"><img src="https://img.shields.io/badge/GitHub-AntSpeaker-181717.svg?logo=github&logoColor=white" alt="GitHub"></a>
 <img src="https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-lightgrey" alt="License">
